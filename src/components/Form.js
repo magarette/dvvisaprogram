@@ -29,7 +29,7 @@ function Form() {
     e.preventDefault();
 
     try {
-      const response = await fetch('https://magarette.pythonanywhere.com/visa/api/forms/', {
+      const response = await fetch('https://bowsmantravelconsult.pythonanywhere.com/visa/api/forms/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
